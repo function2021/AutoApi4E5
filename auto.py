@@ -86,5 +86,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
     id = args.id
     secret = args.secret
-    for _ in range(3):
+    for _ in range(5):
         main()
